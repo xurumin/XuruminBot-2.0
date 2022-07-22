@@ -1,0 +1,36 @@
+{
+  "name": "xuruminbot-2.0",
+  "version": "1.0.0",
+  "description": "O bot mais fofo e divertido do Discord",
+  "main": "index.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/xurumin/XuruminBot-2.0/blob/main/LICENSE"
+    }
+  ],
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xurumin/XuruminBot-2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xurumin/XuruminBot-2.0/issues"
+  },
+  "homepage": "https://github.com/xurumin/XuruminBot-2.0#readme",
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@discordjs/rest": "^1.0.0",
+    "discord-api-types": "^0.36.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
