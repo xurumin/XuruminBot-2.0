@@ -1,12 +1,5 @@
-import { login } from "./config";
+import { Commands } from "./commands";
 
-async function init() {
-  try {
-    const client = await login();
-    return client;
-  } catch (error) {
-    console.error(`Login Failed. ${error}`);
-  }
-}
-
-init();
+(async () => {
+  await Commands();
+})();

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/xurumin/XuruminBot-2.0#readme",
   "dependencies": {
+    "@discordjs/builders": "^1.0.0",
     "discord.js": "^14.0.3",
     "dotenv": "^16.0.1"
   },
